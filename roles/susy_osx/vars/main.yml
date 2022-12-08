@@ -1,0 +1,25 @@
+---
+homebrew_taps:
+  - homebrew/cask
+  - homebrew/cask-fonts
+  - homebrew/cask-versions
+
+homebrew_packages:
+  - git
+  - kubectl
+  - kubernetes-cli
+  - python
+  - ripgrep
+  - shellcheck
+  - terraform
+  - the_silver_searcher
+  - yarn
+  - zplug
+
+homebrew_cask_packages:
+  - gimp
+  - google-cloud-sdk
+  - iterm2
+  - postico
+  - spotify
+  - visual-studio-code

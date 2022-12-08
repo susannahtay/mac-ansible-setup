@@ -1,0 +1,8 @@
+# Override home directory .zshrc file and point to version in this repo
+- name: link zsh
+  file:
+    src: '{{ ansible_env.PWD }}/roles/susy_osx/files/dotfiles/zshrc'
+    path: ~/.zshrc
+    state: link
+    force: yes
+  tags: dotfiles

@@ -6,6 +6,7 @@ homebrew_taps:
 
 homebrew_packages:
   - git
+  - gh
   - kubectl
   - kubernetes-cli
   - python

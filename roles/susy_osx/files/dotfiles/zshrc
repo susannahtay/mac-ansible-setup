@@ -106,7 +106,8 @@ source <(kubectl completion zsh)
 # Add Python binary folder to Path
 export PATH=/Users/Susannah.Taylor/Library/Python/3.9/bin:$PATH
 
-# pyenv
-export PATH="/Users/aaron/.pyenv:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+# virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+export VIRTUALENVWRAPPER_PYTHON=/opt/homebrew/bin/python3
+source /opt/homebrew/bin/virtualenvwrapper.sh
